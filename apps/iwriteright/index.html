@@ -1,0 +1,439 @@
+---
+layout: page
+title: "iWriterRight"
+description: "A writing environment that reads your entire manuscript before it tells you anything. Now on Steam and itch.io."
+permalink: /apps/iwriteright/
+---
+
+<style>
+  .product-hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: #e8e8e8;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 60px;
+  }
+  .product-hero h1 {
+    font-size: 3.2em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+    letter-spacing: -1px;
+  }
+  .product-hero .tagline {
+    font-size: 1.4em;
+    color: #a8b2d8;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+  .store-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .store-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .store-btn:hover {
+    transform: translateY(-2px);
+  }
+  .store-btn--steam {
+    background: #1b2838;
+    color: #fff;
+    border: 1px solid #2a475e;
+  }
+  .store-btn--steam:hover { box-shadow: 0 8px 25px rgba(27,40,56,0.5); }
+  .store-btn--itch {
+    background: #fa5c5c;
+    color: #fff;
+  }
+  .store-btn--itch:hover { box-shadow: 0 8px 25px rgba(250,92,92,0.4); }
+  .product-hero .price-note {
+    font-size: 0.95em;
+    color: #6c757d;
+  }
+  .persona-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin: 40px 0;
+  }
+  .persona-card {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 24px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .persona-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+  .persona-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.1em;
+    color: #1a1a2e;
+  }
+  .persona-card .era {
+    font-size: 0.85em;
+    color: #6c757d;
+    margin-bottom: 12px;
+  }
+  .persona-card .description {
+    font-size: 0.92em;
+    color: #495057;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .traits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .trait {
+    background: #e9ecef;
+    color: #495057;
+    font-size: 0.75em;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+  }
+  .feature-item h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #1a1a2e;
+  }
+  .feature-item p {
+    color: #495057;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .how-it-works {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 50px 40px;
+    margin: 60px 0;
+  }
+  .how-it-works h2 { text-align: center; margin-bottom: 40px; }
+  .step-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+  .step { text-align: center; }
+  .step-number {
+    background: #0f3460;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 0 auto 16px;
+  }
+  .step h3 { font-size: 1em; margin-bottom: 8px; }
+  .step p { font-size: 0.9em; color: #6c757d; margin: 0; line-height: 1.5; }
+  .platforms {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 0;
+    flex-wrap: wrap;
+  }
+  .platform {
+    text-align: center;
+  }
+  .platform-icon {
+    font-size: 2.5em;
+    margin-bottom: 8px;
+  }
+  .platform h4 { margin: 0 0 4px; font-size: 1em; }
+  .platform p { margin: 0; font-size: 0.85em; color: #6c757d; }
+  .requirement-box {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 30px 0;
+  }
+  .requirement-box h3 {
+    margin: 0 0 8px;
+    font-size: 1em;
+    color: #856404;
+  }
+  .requirement-box p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #856404;
+    line-height: 1.6;
+  }
+</style>
+
+<div class="product-hero">
+  <h1>iWriterRight</h1>
+  <p class="tagline">A writing environment that reads your entire manuscript before it tells you anything.<br>AI editorial feedback — in the voice of the authors who taught you to write.</p>
+
+  <div class="store-buttons">
+    <a href="#" class="store-btn store-btn--steam" id="steam-link">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.489 0 4.524 2.031 4.524 4.527s-2.035 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.455 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"/></svg>
+      Steam
+    </a>
+    <a href="#" class="store-btn store-btn--itch" id="itch-link">
+      🔥 itch.io
+    </a>
+  </div>
+
+  <p class="price-note">Available on macOS · Steam and itch.io listing coming soon</p>
+</div>
+
+---
+
+## What it is
+
+iWriterRight is a chapter-based manuscript editor with an AI editorial companion. You write in chapters. The AI reads your whole manuscript before responding. Then — when you ask for feedback — it already knows your world, your characters, your voice.
+
+This is not a ghost-writer. The AI never writes your prose. It reads it, questions it, and tells you what's working, what's not, and why.
+
+Runs entirely on your Mac. Ollama handles AI inference locally. Your manuscripts never leave your machine.
+
+---
+
+## The Editorial Personas
+
+43 built-in voices, each engineered from a published author's actual style — sentence rhythm, diction, imagery preferences, thematic concerns.
+
+<div class="persona-grid">
+
+  <div class="persona-card">
+    <h3>James Joyce</h3>
+    <p class="era">Irish · 1920s · Modernist experimental</p>
+    <p class="description">Stream of consciousness, dense wordplay, Ulysses and Dubliners. "The sentence is a city."</p>
+    <div class="traits">
+      <span class="trait">Stream of consciousness</span>
+      <span class="trait">Dense wordplay</span>
+      <span class="trait">Long layered sentences</span>
+    </div>
+  </div>
+
+  <div class="persona-card">
+    <h3>Virginia Woolf</h3>
+    <p class="era">British · 1920s · Modernist interior</p>
+    <p class="description">"The sentence is a tide." Inner time over clock time, the precise texture of thought.</p>
+    <div class="traits">
+      <span class="trait">Lyrical interiority</span>
+      <span class="trait">Inner time</span>
+      <span class="trait">Mrs Dalloway</span>
+    </div>
+  </div>
+
+  <div class="persona-card">
+    <h3>Ernest Hemingway</h3>
+    <p class="era">American · 1920s · Literary modernism</p>
+    <p class="description">"The iceberg." Short declaratives, Anglo-Saxon diction, what isn't said.</p>
+    <div class="traits">
+      <span class="trait">Iceberg theory</span>
+      <span class="trait">Short declarative</span>
+      <span class="trait">Anglo-Saxon diction</span>
+    </div>
+  </div>
+
+  <div class="persona-card">
+    <h3>Toni Morrison</h3>
+    <p class="era">American · 1970s · Lyrical literary</p>
+    <p class="description">"Surgical sentences." Memory, vernacular, fragmented history. Beloved, Song of Solomon.</p>
+    <div class="traits">
+      <span class="trait">Dense lyrical prose</span>
+      <span class="trait">Memory structure</span>
+      <span class="trait">Vernacular</span>
+    </div>
+  </div>
+
+  <div class="persona-card">
+    <h3>Cormac McCarthy</h3>
+    <p class="era">American · 1980s · Southern gothic / Western</p>
+    <p class="description">Fragments, no quotation marks, biblical cadence. Blood Meridian, The Road.</p>
+    <div class="traits">
+      <span class="trait">No quotation marks</span>
+      <span class="trait">Biblical cadence</span>
+      <span class="trait">Sentence fragments</span>
+    </div>
+  </div>
+
+  <div class="persona-card">
+    <h3>Edgar Allan Poe</h3>
+    <p class="era">American · 1840s · Gothic horror</p>
+    <p class="description">"The Gothic intellectual." Elaborate periodic sentences, archaic diction, fevered narration.</p>
+    <div class="traits">
+      <span class="trait">Periodic sentences</span>
+      <span class="trait">Archaic diction</span>
+      <span class="trait">Macabre</span>
+    </div>
+  </div>
+
+  <div class="persona-card">
+    <h3>Gabriel García Márquez</h3>
+    <p class="era">Latin American · 1960s · Magic realism</p>
+    <p class="description">"The supernatural presented as ordinary." One Hundred Years of Solitude — lyrical, vast, unhurried.</p>
+    <div class="traits">
+      <span class="trait">Magic realism</span>
+      <span class="trait">Polysyndeton</span>
+      <span class="trait">Lyrical accumulation</span>
+    </div>
+  </div>
+
+  <div class="persona-card">
+    <h3>Joan Didion</h3>
+    <p class="era">American · 1970s · Literary nonfiction</p>
+    <p class="description">"We tell ourselves stories in order to live." Precise, cool, specific detail as thesis.</p>
+    <div class="traits">
+      <span class="trait">Named fear</span>
+      <span class="trait">Specific detail</span>
+      <span class="trait">Quiet authority</span>
+    </div>
+  </div>
+
+</div>
+
+<p style="text-align:center; color: #6c757d; font-size: 0.9em; margin-top: 8px;">Plus 35 more editorial and author personas — Austen to Zadie Smith, editors, beta readers, plot doctors.</p>
+
+---
+
+## Features
+
+<div class="feature-grid">
+
+  <div class="feature-item">
+    <h3>Chapter-based editor</h3>
+    <p>Write in chapters, not one giant file. Named checkpoints for every chapter — save points you can return to and compare.</p>
+  </div>
+
+  <div class="feature-item">
+    <h3>Whole-manuscript AI context</h3>
+    <p>Before the AI comments on chapter five, it's already read chapters one through six. Its feedback accounts for your entire book — not just the page in front of you.</p>
+  </div>
+
+  <div class="feature-item">
+    <h3>Editorial feedback modes</h3>
+    <p>Feedback (inline commentary), Copy Edit (grammar/punctuation), Format (manuscript submission checks), Revision (repetitive words, passive voice, telling vs showing).</p>
+  </div>
+
+  <div class="feature-item">
+    <h3>Companion documents</h3>
+    <p>World Bible (characters, settings, timeline), Style Guide (your preferred rules), Editorial Letter (notes to the AI about what to watch for).</p>
+  </div>
+
+  <div class="feature-item">
+    <h3>43 author personas</h3>
+    <p>Apply an editorial voice shaped by real authors. Get feedback as if Stephen King's editor was reading — or Toni Morrison's, or James Joyce's.</p>
+  </div>
+
+  <div class="feature-item">
+    <h3>100% local</h3>
+    <p>Runs entirely on your Mac. Ollama handles AI inference locally. Your manuscripts never touch a server.</p>
+  </div>
+
+</div>
+
+---
+
+## How it works
+
+<div class="how-it-works">
+  <h2>The flow</h2>
+  <div class="step-grid">
+    <div class="step">
+      <div class="step-number">1</div>
+      <h3>Write</h3>
+      <p>Chapter by chapter. Save checkpoints. Build your world bible and style guide as you go.</p>
+    </div>
+    <div class="step">
+      <div class="step-number">2</div>
+      <h3>Choose a persona</h3>
+      <p>Pick the editorial voice — James Joyce, a blunt editor, a beta reader, your own self-critic.</p>
+    </div>
+    <div class="step">
+      <div class="step-number">3</div>
+      <h3>Ask for feedback</h3>
+      <p>Select a passage. The AI reads your whole manuscript first, then responds in that voice.</p>
+    </div>
+    <div class="step">
+      <div class="step-number">4</div>
+      <h3>Revise</h3>
+      <p>The feedback is advisory. You write. The AI observes. The final prose is always yours.</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## Requirements
+
+<div class="requirement-box">
+  <h3>📋 Before you buy — read this</h3>
+  <p>iWriterRight requires <strong>Ollama</strong> (free, open-source) to be installed and running on your Mac. You'll also need to download at least one AI model through Ollama — <strong>qwen3.5:35b</strong> is recommended for best results with long manuscripts. Model downloads are free and happen inside the app. No API keys. No cloud account. No subscription.</p>
+</div>
+
+---
+
+## Platform
+
+<div class="platforms">
+  <div class="platform">
+    <div class="platform-icon">🍎</div>
+    <h4>macOS</h4>
+    <p>Tauri desktop app — native, fast, self-contained</p>
+  </div>
+  <div class="platform">
+    <div class="platform-icon">🕹️</div>
+    <h4>Steam</h4>
+    <p>Listing coming soon — wishlist to be notified</p>
+  </div>
+  <div class="platform">
+    <div class="platform-icon">🔥</div>
+    <h4>itch.io</h4>
+    <p>Pay-what-you-want pricing — listing coming soon</p>
+  </div>
+</div>
+
+---
+
+## What's included
+
+- **iWriterRight** desktop app (macOS)
+- **43 built-in editorial personas** with full system prompts
+- **RAG corpus service** for persona text ingestion
+- **Chapter-based editor** with named checkpoints
+- **Companion documents** per project
+- **Whole-manuscript AI context window**
+- **Local Ollama integration** — no API costs, no data leaving your machine
+- **Import**: plain text, Markdown, DOCX
+- **Export**: plain text, Markdown, DOCX
+
+---
+
+## built small, shared freely, never worthless.
+
+— DrossApps · One-person indie studio · Belfast, Northern Ireland
+
