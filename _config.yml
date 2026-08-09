@@ -1,0 +1,7 @@
+title: DrossApps
+description: "built small, shared freely, never worthless."
+url: "https://drossapps.ai"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jemoji
