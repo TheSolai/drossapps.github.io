@@ -1,11 +1,41 @@
 {
+  "artefact_amber": {
+    "file": "artefact_amber.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_bone": {
+    "file": "artefact_bone.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_bronze": {
+    "file": "artefact_bronze.png",
+    "w": 18,
+    "h": 18
+  },
   "artefact_clay": {
     "file": "artefact_clay.png",
     "w": 18,
     "h": 18
   },
+  "artefact_coin": {
+    "file": "artefact_coin.png",
+    "w": 18,
+    "h": 18
+  },
   "artefact_crown": {
     "file": "artefact_crown.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_fabric": {
+    "file": "artefact_fabric.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_glass": {
+    "file": "artefact_glass.png",
     "w": 18,
     "h": 18
   },
@@ -34,6 +64,21 @@
     "w": 18,
     "h": 18
   },
+  "dig_barrow": {
+    "file": "dig_barrow.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_cave": {
+    "file": "dig_cave.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_cliff": {
+    "file": "dig_cliff.png",
+    "w": 26,
+    "h": 26
+  },
   "dig_cutting": {
     "file": "dig_cutting.png",
     "w": 26,
@@ -41,6 +86,11 @@
   },
   "dig_deepworks": {
     "file": "dig_deepworks.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_marsh": {
+    "file": "dig_marsh.png",
     "w": 26,
     "h": 26
   },
@@ -64,6 +114,16 @@
     "w": 26,
     "h": 26
   },
+  "dig_well": {
+    "file": "dig_well.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_wreck": {
+    "file": "dig_wreck.png",
+    "w": 26,
+    "h": 26
+  },
   "gallery_case": {
     "file": "gallery_case.png",
     "w": 26,
@@ -84,10 +144,45 @@
     "w": 18,
     "h": 18
   },
+  "prop_desk": {
+    "file": "prop_desk.png",
+    "w": 26,
+    "h": 26
+  },
+  "prop_ladder": {
+    "file": "prop_ladder.png",
+    "w": 26,
+    "h": 26
+  },
+  "prop_lamp": {
+    "file": "prop_lamp.png",
+    "w": 26,
+    "h": 26
+  },
+  "prop_plaque": {
+    "file": "prop_plaque.png",
+    "w": 26,
+    "h": 26
+  },
+  "prop_rope": {
+    "file": "prop_rope.png",
+    "w": 26,
+    "h": 26
+  },
+  "prop_tarpaulin": {
+    "file": "prop_tarpaulin.png",
+    "w": 26,
+    "h": 26
+  },
   "reel_wheel": {
     "file": "reel_wheel.png",
     "w": 26,
     "h": 26
+  },
+  "symbol_bell": {
+    "file": "symbol_bell.png",
+    "w": 18,
+    "h": 18
   },
   "symbol_blight": {
     "file": "symbol_blight.png",
@@ -104,8 +199,23 @@
     "w": 18,
     "h": 18
   },
+  "symbol_crystal": {
+    "file": "symbol_crystal.png",
+    "w": 18,
+    "h": 18
+  },
+  "symbol_feather": {
+    "file": "symbol_feather.png",
+    "w": 18,
+    "h": 18
+  },
   "symbol_honey": {
     "file": "symbol_honey.png",
+    "w": 18,
+    "h": 18
+  },
+  "symbol_key": {
+    "file": "symbol_key.png",
     "w": 18,
     "h": 18
   },
@@ -176,6 +286,21 @@
   },
   "visitor_c": {
     "file": "visitor_c.png",
+    "w": 18,
+    "h": 18
+  },
+  "visitor_d": {
+    "file": "visitor_d.png",
+    "w": 18,
+    "h": 18
+  },
+  "visitor_e": {
+    "file": "visitor_e.png",
+    "w": 18,
+    "h": 18
+  },
+  "visitor_f": {
+    "file": "visitor_f.png",
     "w": 18,
     "h": 18
   }
