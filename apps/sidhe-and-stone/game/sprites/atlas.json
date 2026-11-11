@@ -1,0 +1,182 @@
+{
+  "artefact_clay": {
+    "file": "artefact_clay.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_crown": {
+    "file": "artefact_crown.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_mask": {
+    "file": "artefact_mask.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_relic": {
+    "file": "artefact_relic.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_rubble": {
+    "file": "artefact_rubble.png",
+    "w": 18,
+    "h": 18
+  },
+  "artefact_tablet": {
+    "file": "artefact_tablet.png",
+    "w": 18,
+    "h": 18
+  },
+  "curator": {
+    "file": "curator.png",
+    "w": 18,
+    "h": 18
+  },
+  "dig_cutting": {
+    "file": "dig_cutting.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_deepworks": {
+    "file": "dig_deepworks.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_shaft": {
+    "file": "dig_shaft.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_site": {
+    "file": "dig_site.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_test_pit": {
+    "file": "dig_test_pit.png",
+    "w": 26,
+    "h": 26
+  },
+  "dig_trench": {
+    "file": "dig_trench.png",
+    "w": 26,
+    "h": 26
+  },
+  "gallery_case": {
+    "file": "gallery_case.png",
+    "w": 26,
+    "h": 26
+  },
+  "icon_charm": {
+    "file": "icon_charm.png",
+    "w": 18,
+    "h": 18
+  },
+  "icon_coin": {
+    "file": "icon_coin.png",
+    "w": 18,
+    "h": 18
+  },
+  "icon_demand": {
+    "file": "icon_demand.png",
+    "w": 18,
+    "h": 18
+  },
+  "reel_wheel": {
+    "file": "reel_wheel.png",
+    "w": 26,
+    "h": 26
+  },
+  "symbol_blight": {
+    "file": "symbol_blight.png",
+    "w": 18,
+    "h": 18
+  },
+  "symbol_bog": {
+    "file": "symbol_bog.png",
+    "w": 18,
+    "h": 18
+  },
+  "symbol_clover": {
+    "file": "symbol_clover.png",
+    "w": 18,
+    "h": 18
+  },
+  "symbol_honey": {
+    "file": "symbol_honey.png",
+    "w": 18,
+    "h": 18
+  },
+  "symbol_moon": {
+    "file": "symbol_moon.png",
+    "w": 18,
+    "h": 18
+  },
+  "symbol_star": {
+    "file": "symbol_star.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_archivists": {
+    "file": "upgrade_archivists.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_curator": {
+    "file": "upgrade_curator.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_diggers": {
+    "file": "upgrade_diggers.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_excavators": {
+    "file": "upgrade_excavators.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_gallery": {
+    "file": "upgrade_gallery.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_guides": {
+    "file": "upgrade_guides.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_omen": {
+    "file": "upgrade_omen.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_site": {
+    "file": "upgrade_site.png",
+    "w": 18,
+    "h": 18
+  },
+  "upgrade_wards": {
+    "file": "upgrade_wards.png",
+    "w": 18,
+    "h": 18
+  },
+  "visitor_a": {
+    "file": "visitor_a.png",
+    "w": 18,
+    "h": 18
+  },
+  "visitor_b": {
+    "file": "visitor_b.png",
+    "w": 18,
+    "h": 18
+  },
+  "visitor_c": {
+    "file": "visitor_c.png",
+    "w": 18,
+    "h": 18
+  }
+}
