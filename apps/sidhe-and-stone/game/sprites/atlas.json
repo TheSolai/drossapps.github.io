@@ -4,6 +4,11 @@
     "w": 18,
     "h": 18
   },
+  "artefact_amulet": {
+    "file": "artefact_amulet.png",
+    "w": 18,
+    "h": 18
+  },
   "artefact_bone": {
     "file": "artefact_bone.png",
     "w": 18,
@@ -144,6 +149,11 @@
     "w": 18,
     "h": 18
   },
+  "lamp_lit": {
+    "file": "lamp_lit.png",
+    "w": 18,
+    "h": 18
+  },
   "prop_desk": {
     "file": "prop_desk.png",
     "w": 26,
@@ -173,6 +183,11 @@
     "file": "prop_tarpaulin.png",
     "w": 26,
     "h": 26
+  },
+  "reel_lever": {
+    "file": "reel_lever.png",
+    "w": 18,
+    "h": 18
   },
   "reel_wheel": {
     "file": "reel_wheel.png",
@@ -301,6 +316,11 @@
   },
   "visitor_f": {
     "file": "visitor_f.png",
+    "w": 18,
+    "h": 18
+  },
+  "visitor_g": {
+    "file": "visitor_g.png",
     "w": 18,
     "h": 18
   }
